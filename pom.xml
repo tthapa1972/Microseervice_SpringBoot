@@ -21,7 +21,7 @@
 		<java.version>21</java.version>
 		<spring-boot.version>3.2.1</spring-boot.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-		<twitter4j.version>4.1.2</twitter4j.version>
+		<twitter4j.version>4.0.7</twitter4j.version>
 		<lombok.version>1.18.30</lombok.version>
 	</properties>
 	<dependencyManagement>
@@ -39,10 +39,9 @@
 				<scope>test</scope>
 			</dependency>
 
-			<!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-core -->
 			<dependency>
 				<groupId>org.twitter4j</groupId>
-				<artifactId>twitter4j-core</artifactId>
+				<artifactId>twitter4j-stream</artifactId>
 				<version>${twitter4j.version}</version>
 			</dependency>
 
