@@ -15,6 +15,10 @@ public class TwitterToKafkaServiceConfig {
 
     private String welcomeMessage;
 
+    private String twitterV2BaseUrl;
+    private String twitterV2RulesBaseUrl;
+    private String twitterV2BearerToken;
+
     public List<String> getTwitterKeywords() {
         return twitterKeywords;
     }
@@ -29,5 +33,29 @@ public class TwitterToKafkaServiceConfig {
 
     public void setWelcomeMessage(String welcomeMessage) {
         this.welcomeMessage = welcomeMessage;
+    }
+
+    public String getTwitterV2BaseUrl() {
+        return twitterV2BaseUrl;
+    }
+
+    public void setTwitterV2BaseUrl(String twitterV2BaseUrl) {
+        this.twitterV2BaseUrl = twitterV2BaseUrl;
+    }
+
+    public String getTwitterV2RulesBaseUrl() {
+        return twitterV2RulesBaseUrl;
+    }
+
+    public void setTwitterV2RulesBaseUrl(String twitterV2RulesBaseUrl) {
+        this.twitterV2RulesBaseUrl = twitterV2RulesBaseUrl;
+    }
+
+    public String getTwitterV2BearerToken() {
+        return twitterV2BearerToken;
+    }
+
+    public void setTwitterV2BearerToken(String twitterV2BearerToken) {
+        this.twitterV2BearerToken = twitterV2BearerToken;
     }
 }
