@@ -15,6 +15,10 @@ public class TwitterToKafkaServiceConfig {
 
     private String welcomeMessage;
 
+    private Boolean enableMockTweets;
+    private Long mockSleepMs;
+    private Integer mockMinTweetLength;
+    private Integer mockMaxTweetLength;
     private String twitterV2BaseUrl;
     private String twitterV2RulesBaseUrl;
     private String twitterV2BearerToken;
@@ -57,5 +61,37 @@ public class TwitterToKafkaServiceConfig {
 
     public void setTwitterV2BearerToken(String twitterV2BearerToken) {
         this.twitterV2BearerToken = twitterV2BearerToken;
+    }
+
+    public Boolean getEnableMockTweets() {
+        return enableMockTweets;
+    }
+
+    public void setEnableMockTweets(Boolean enableMockTweets) {
+        this.enableMockTweets = enableMockTweets;
+    }
+
+    public Long getMockSleepMs() {
+        return mockSleepMs;
+    }
+
+    public void setMockSleepMs(Long mockSleepMs) {
+        this.mockSleepMs = mockSleepMs;
+    }
+
+    public Integer getMockMinTweetLength() {
+        return mockMinTweetLength;
+    }
+
+    public void setMockMinTweetLength(Integer mockMinTweetLength) {
+        this.mockMinTweetLength = mockMinTweetLength;
+    }
+
+    public Integer getMockMaxTweetLength() {
+        return mockMaxTweetLength;
+    }
+
+    public void setMockMaxTweetLength(Integer mockMaxTweetLength) {
+        this.mockMaxTweetLength = mockMaxTweetLength;
     }
 }
