@@ -19,3 +19,12 @@
 2024-02-23 09:39:15 [main] INFO  c.m.d.t.t.k.r.i.TwitterV2KafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, ElasticSearch]
 2024-02-23 09:39:15 [pool-2-thread-1] INFO  c.m.d.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text massa magna congue lectus ipsum posuere ipsum lectus Spring sit elit consectetuer libero ultricies Lorem
 2024-02-23 09:39:25 [pool-2-thread-1] INFO  c.m.d.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text ultricies magna amet sed purus Spring amet Maecenas sit
+2024-02-23 13:21:06 [main] INFO  c.m.d.t.t.k.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.2 with PID 20856 (D:\Java\Microservice_SpringBoot\twitter-to-kafka-service\target\classes started by tarab in D:\Java\Microservice_SpringBoot)
+2024-02-23 13:21:06 [main] INFO  c.m.d.t.t.k.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-23 13:21:07 [main] INFO  c.m.d.t.t.k.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.714 seconds (process running for 1.081)
+2024-02-23 13:21:07 [main] INFO  c.m.d.t.t.k.TwitterToKafkaServiceApplication - App Starts..
+2024-02-23 13:21:07 [main] INFO  c.m.d.t.t.k.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2024-02-23 13:21:07 [main] INFO  c.m.d.t.t.k.TwitterToKafkaServiceApplication - welcome to twitter to kafka service
+2024-02-23 13:21:07 [main] INFO  c.m.d.t.t.k.r.i.TwitterV2KafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, ElasticSearch]
+2024-02-23 13:21:07 [pool-2-thread-1] INFO  c.m.d.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text libero lectus Maecenas massa congue Java consectetuer Fusce magna adipiscing
+2024-02-23 13:21:17 [pool-2-thread-1] INFO  c.m.d.t.t.k.l.TwitterKafkaStatusListener - Twitter status with text pulvinar porttitor massa ipsum adipiscing sed Kafka porttitor posuere porttitor magna purus
