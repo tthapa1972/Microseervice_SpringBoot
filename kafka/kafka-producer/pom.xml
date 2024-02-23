@@ -10,7 +10,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.microservice.demo</groupId>
+    <groupId>com.microservice.demo</groupId>
     <artifactId>kafka-producer</artifactId>
 
     <properties>
